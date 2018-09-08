@@ -6,7 +6,7 @@ export function ucWords(params, hash) {
 
   if(!string) {
 
-  	return params[0];
+    return params[0];
   }
 
   if(force) {

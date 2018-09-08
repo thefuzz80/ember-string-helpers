@@ -4,11 +4,11 @@ export function formatPhone(params/*, hash*/) {
   var phone = params[0];
   
   if( !phone ){
-    console.warn(
-      "%c{{format-phone}} Invalid phone number passed: %s",
-      "color: orange;", // http://www.w3schools.com/html/html_colornames.asp
-      phone
-    );
+    // console.warn(
+    //   "%c{{format-phone}} Invalid phone number passed: %s",
+    //   "color: orange;", // http://www.w3schools.com/html/html_colornames.asp
+    //   phone
+    // );
     return phone;
   }
   
