@@ -1,6 +1,6 @@
-import Ember from 'ember';
+import { helper } from '@ember/component/helper';
 
-export function substr([value, ...rest], hash) {
+export function substr([value], hash) {
 	if (typeof value === 'string') {
 		let start = hash.start || 0;
 		let length = hash.length;
@@ -10,4 +10,4 @@ export function substr([value, ...rest], hash) {
 	}
 }
 
-export default Ember.Helper.helper(substr);
+export default helper(substr);
